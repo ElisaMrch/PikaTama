@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Joue avec moi" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="226dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        app:srcCompat="@drawable/marius" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Faim"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0" />
+
+    <TextView
+        android:id="@+id/Bonheur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Message" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btncaresse"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:text="Caresse" />
+
+        <Button
+            android:id="@+id/btnNourrir"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:text="Nourrir" />
+
+        <Button
+            android:id="@+id/btnJouet"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:text="Jouet" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnGotoPnl1"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:text="Aller à l'écran 1" />
+
+        <Button
+            android:id="@+id/btnGotoPnl3"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:text="Aller à l'écran 3" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
